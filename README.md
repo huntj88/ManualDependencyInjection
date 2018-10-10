@@ -1,10 +1,10 @@
 # ManualDependencyInjection
 
 
-i made this to make dependency injection easier to understand
-its all with concrete classes, but you could build it with interfaces using the same principles to make it testable
+I made this to make dependency injection easier to understand
 
-cause then you could swap out the arguments in the constructor with test mocks
-but everywhere since everything is injected via DI
+Its all with concrete classes, but you could build it with interfaces using the same principles to make it testable
+
+Then you could swap out the arguments in the constructors with test mocks
 
 start with the `me.jameshunt.m` package, and once you understand how they are connected, then go look in the `me.jameshunt.di` package
